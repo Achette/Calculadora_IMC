@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.headerContainer {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+.container .leftSide {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.container .rightSide {
+    flex: 1;
+    margin-left: 40px;
+}
