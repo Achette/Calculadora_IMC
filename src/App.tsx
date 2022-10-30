@@ -8,7 +8,7 @@ const App = () => {
 
   const handleCalculateButton = () => {
     if(heightField && weightField) {
-      
+
     } else {
       alert('Preencha todos os campos corretamente!')
     }
@@ -23,7 +23,7 @@ const App = () => {
       </header>
       <div className={styles.container}>
         <div className={styles.leftSide}>
-          <h1>Calcule o seu IMC</h1>
+          <h1>Calcule o seu IMC.</h1>
           <p>
             IMC é a sigla de Índice de Massa Corpórea, parâmetro adotado pela
             Organização Mundial de Saúde para calcular o peso ideal de cada
