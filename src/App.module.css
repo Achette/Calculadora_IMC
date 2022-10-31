@@ -45,6 +45,10 @@ body {
   outline: 0;
 }
 
+.container .leftSide input:disabled {
+  opacity: 0.5;
+}
+
 .container .leftSide button {
   background-color: #227c9d;
   color: #fff;
@@ -60,6 +64,10 @@ body {
 
 .container .leftSide button:hover {
   opacity: 0.85;
+}
+
+.container .leftSide button:disabled {
+  opacity: 0.5;
 }
 
 .container .rightSide {
@@ -92,4 +100,5 @@ body {
   cursor: pointer;
   margin-left: -35px;
   margin-top: 145px;
+  transition: all ease 0.3s;
 }
