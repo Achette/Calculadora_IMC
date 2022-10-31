@@ -55,14 +55,22 @@ body {
   width: 100%;
   cursor: pointer;
   margin-top: 40px;
-  transition: all ease .3s;
+  transition: all ease 0.3s;
 }
 
 .container .leftSide button:hover {
-    opacity: 0.85;
+  opacity: 0.85;
 }
 
 .container .rightSide {
   flex: 1;
   margin-left: 40px;
+  display: flex;
+}
+
+.container .rightSide .grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
