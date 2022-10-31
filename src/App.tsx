@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./App.module.css";
 import Logo from "./assets/powered.png";
+import { calculateImc, levels } from "./helpers/imc";
 
 const App = () => {
   const [heightField, setHeightField] = React.useState<number>(0);
@@ -46,7 +47,11 @@ const App = () => {
 
           <button onClick={handleCalculateButton}>Calcular</button>
         </div>
-        <div className={styles.rightSide}>...</div>
+        <div className={styles.rightSide}>
+          <div className={styles.grid}>
+            
+          </div>
+        </div>
       </div>
     </div>
   );
